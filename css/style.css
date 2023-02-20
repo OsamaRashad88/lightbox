@@ -1,0 +1,26 @@
+.caption {
+  position: absolute;
+  width: 80%;
+  bottom: 10%;
+  left: 10%;
+}
+.layer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.layer-child {
+  background-image: url(../images/2.jpg);
+  height: 500px;
+  background-size: cover;
+  width: 50%;
+}
+#closebtn,
+#nextBtn,
+#prevBtn {
+  cursor: pointer;
+}
